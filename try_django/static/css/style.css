@@ -12,6 +12,9 @@ nav img{
     text-align: center;
     margin-top: 15px;
 }
+.contact{
+    text-align: center;
+}
 .about{
     text-align: center;
     margin-top: 50px;
@@ -67,4 +70,11 @@ nav img{
 .main h1{
     font-size: 30px;
 }
+form {
+    width: 300px;
+}
+.input-group textarea{
+    width: 300px;
+}
+
 }

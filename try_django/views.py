@@ -13,4 +13,5 @@ def about(request):
    return render(request, "about.html", {"about": about_us})
 
 def contact(request):
-  return render(request, "contact.html", {"title": 'Contact Us'})
+  contact_us = 'Talk to us We are here for you'
+  return render(request, "contact.html", {"title": contact_us})
