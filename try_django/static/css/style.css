@@ -1,0 +1,70 @@
+#navbar-nav{
+    margin-left: 900px;
+}
+nav{
+    background-color: black;
+}
+nav img{
+    width: 75px;
+    height: 64px;
+}
+.main h1{
+    text-align: center;
+    margin-top: 15px;
+}
+.about{
+    text-align: center;
+    margin-top: 50px;
+}
+#btn{
+    background-color: black;
+}
+.card-group{
+   margin-top: 70px;
+}
+.card-group img{
+    width: 370px;
+    
+}
+#contact-form {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+#contact-form .six {
+    padding: 40px;
+}
+
+#contact-form ul {
+    list-style: none;
+    padding: 0;
+}
+
+.input-group {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-group input {
+    border-radius: 3px;
+}
+
+.input-group textarea {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.input-group button {
+    margin: 10px;
+    width: 80px;
+    border-radius: 3px;
+    padding: 4px;
+}
+@media (max-width: 480px){
+.main h1{
+    font-size: 30px;
+}
+}
