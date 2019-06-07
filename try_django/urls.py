@@ -19,13 +19,14 @@ from django.contrib.staticfiles import views
 from django.conf import settings
 from django.urls import re_path
 
-from .views import (home, about, contact)
+from .views import (home, about, contact, chart)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
     path('about/', about),
     path('contact/', contact),
+    path('chart/', chart),
 ]
 
 if settings.DEBUG:

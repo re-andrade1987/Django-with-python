@@ -15,3 +15,7 @@ def about(request):
 def contact(request):
   contact_us = 'Talk to us We are here for you'
   return render(request, "contact.html", {"title": contact_us})
+
+def chart(request):
+   chart = 'See us in numbers'
+   return render(request,"chart.html",  {"title": chart})
